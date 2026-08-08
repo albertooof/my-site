@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="map[name:Alberto]">
+<meta name="description" content="The goal of the SRTT Distribution APP package is to provide a set of R functions for exploring how different statistical distributions fit reaction time data collected during a Serial Reaction Time Task (SRTT).
+I created and currently use the package to investigate how mean, variance, lag, and other distributional properties change across different sample sizes and windows of reaction time data. The package allows me to compare different fitting approaches, including the normal, gamma, and shifted log-normal distributions, and to identify which distribution provides the best fit to the observed reaction time data.
+" />
+<meta name="keywords" content="Clinical Neuroscientist, Cognitive NeuroscienceTranscranial Magnetic Stimulation (TMS), Clinical Research,Clinical Trials, Clinical Trial Operations,Biomedical Data Analysis, Clinical Data Science, Neuroimaging, Brain Stimulation,Healthcare Data Science,Statistical Modelling, Human Subjects Research,Translational Neuroscience, Neuroscience Consultant,Research Scientist,Machine Learning in Healthcare,ICH-GCP Certified,Medical Data Analysis,Neurotechnology Research" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="http://localhost:1313/projects/srttdistribution/" />
+
+
+    <title>
+        
+            SRTT Distribution :: Alberto Failla, PhD  — Hello Friend NG Theme
+        
+    </title>
+
+
+
+
+
+  <link rel="stylesheet" href="http://localhost:1313/main.min.7289daf2e88ea2c7b253a51cc5794c7cc17e7aeb7295a19d978db764a5862f25.css" integrity="sha256-cona8uiOoseyU6UcxXlMfMF&#43;eutylaGdl423ZKWGLyU=" crossorigin="anonymous">
+
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+    <link rel="manifest" href="http://localhost:1313/site.webmanifest">
+    <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg" color="">
+    <link rel="shortcut icon" href="http://localhost:1313/favicon.ico">
+    <meta name="msapplication-TileColor" content="">
+
+
+
+	<meta itemprop="name" content="SRTT Distribution">
+	<meta itemprop="description" content="The goal of the SRTT Distribution APP package is to provide a set of R functions for exploring how different statistical distributions fit reaction time data collected during a Serial Reaction Time Task (SRTT).
+I created and currently use the package to investigate how mean, variance, lag, and other distributional properties change across different sample sizes and windows of reaction time data. The package allows me to compare different fitting approaches, including the normal, gamma, and shifted log-normal distributions, and to identify which distribution provides the best fit to the observed reaction time data.">
+	<meta itemprop="datePublished" content="2026-08-07T00:00:00+00:00">
+	<meta itemprop="dateModified" content="2026-08-07T00:00:00+00:00">
+	<meta itemprop="wordCount" content="206">
+	<meta itemprop="image" content="http://localhost:1313/">
+
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="http://localhost:1313/">
+	<meta name="twitter:title" content="SRTT Distribution">
+	<meta name="twitter:description" content="The goal of the SRTT Distribution APP package is to provide a set of R functions for exploring how different statistical distributions fit reaction time data collected during a Serial Reaction Time Task (SRTT).
+I created and currently use the package to investigate how mean, variance, lag, and other distributional properties change across different sample sizes and windows of reaction time data. The package allows me to compare different fitting approaches, including the normal, gamma, and shifted log-normal distributions, and to identify which distribution provides the best fit to the observed reaction time data.">
+
+
+
+    <meta property="og:url" content="http://localhost:1313/projects/srttdistribution/">
+	<meta property="og:site_name" content="Alberto Failla, PhD">
+	<meta property="og:title" content="SRTT Distribution">
+	<meta property="og:description" content="The goal of the SRTT Distribution APP package is to provide a set of R functions for exploring how different statistical distributions fit reaction time data collected during a Serial Reaction Time Task (SRTT).
+I created and currently use the package to investigate how mean, variance, lag, and other distributional properties change across different sample sizes and windows of reaction time data. The package allows me to compare different fitting approaches, including the normal, gamma, and shifted log-normal distributions, and to identify which distribution provides the best fit to the observed reaction time data.">
+	<meta property="og:locale" content="en_us">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="projects">
+		<meta property="article:published_time" content="2026-08-07T00:00:00+00:00">
+		<meta property="article:modified_time" content="2026-08-07T00:00:00+00:00">
+		<meta property="og:image" content="http://localhost:1313/">
+
+
+
+
+
+
+    <meta property="article:published_time" content="2026-08-07 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="http://localhost:1313/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">&gt;</span>
+            <span class="logo__text ">
+                $ cd /home/AlbertoFailla</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+                <nav class="menu">
+    <ul class="menu__inner">
+                <div class="submenu">
+                    <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">About</a>
+                    <div class="dropdown-content">
+                    
+                        <a href="http://localhost:1313/about/me/">About Me</a>
+                    
+                        <a href="http://localhost:1313/about/free_time/">Free Time</a>
+                    
+                        <a href="http://localhost:1313/about/cv/">Curriculum Vitae</a>
+                    
+                        <a href="http://localhost:1313/about/clinical_research/">Clinical Research</a>
+                    
+                    </div>
+                    </li>
+                </div>
+            
+                <div class="submenu">
+                    <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Projects</a>
+                    <div class="dropdown-content">
+                    
+                        <a href="http://localhost:1313/projects/srttanalysis/">SRTT Analysis</a>
+                    
+                        <a href="http://localhost:1313/projects/srttdistribution/">SRTT Distribution</a>
+                    
+                        <a href="http://localhost:1313/projects/pairedpulsetms_visualisation/">PairedPulse TMS Visualisation</a>
+                    
+                        <a href="http://localhost:1313/projects/pairedpulsetms_analysis/">PairedPulse TMS Analysis</a>
+                    
+                    </div>
+                    </li>
+                </div>
+            
+        <ul class="submenu">
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">en</a>
+                <div class="dropdown-content">
+                </div>
+            </li>
+        </ul>
+    </ul>
+</nav>
+
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+                <span class="theme-toggle not-selectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+   <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+   3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+   13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+ </svg></span>
+        </span>
+    </span>
+</header>
+
+
+            
+    <div class="content">
+        <main class="post">
+
+            <div class="post-info">
+                
+                </p>
+            </div>
+
+            <article>
+                <h2 class="post-title"><a href="http://localhost:1313/projects/srttdistribution/">SRTT Distribution</a></h2>
+
+                
+                
+                
+
+                <div class="post-content">
+                    <p>The goal of the <a href="https://github.com/albertooof/SRTT_Distribution_APP"><strong>SRTT Distribution APP</strong></a> package is to provide a set of R functions for exploring how different statistical distributions fit <em>reaction time data</em> collected during a Serial Reaction Time Task (SRTT).</p>
+<p>I created and currently use the package to investigate how <strong>mean, variance, lag, and other distributional properties</strong> change across different sample sizes and windows of reaction time data. The package allows me to compare different fitting approaches, including the <strong>normal, gamma, and shifted log-normal distributions</strong>, and to identify which distribution provides the best fit to the observed reaction time data.</p>
+<p>A particular focus of the package is to examine how the choice of the fitting distribution changes depending on the <strong>amount of data available</strong>. The analyses show that when working with very small samples or very small windows of the data (e.g., around <strong>1% of the total trials</strong>), the normal distribution can provide the best fit. However, as the window increases (e.g., <strong>&gt;10% of the total data</strong>), other distributions, such as the gamma or shifted log-normal, can provide better fits to the reaction time data. The package therefore provides a way to visualise and explore how the estimated distribution and its parameters change as progressively larger portions of the data are considered.</p>
+<p><img src="http://localhost:1313/img/SRTT_Distribution.gif" alt="SRTT_Distribution"></p>
+
+                </div>
+            </article>
+
+            <hr />
+
+            <div class="post-info">
+                
+                
+            </div>
+        </main>
+    </div>
+
+
+            
+                <footer class="footer">
+    
+    
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Inspired by <a href="https://github.com/rhazdon">rhazdon</a> and SH</span>
+        </div>
+    </div>
+    
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="http://localhost:1313/bundle.min.08b680078a3cf9c69e3dd217a5aa52cfddd4a1d850f8cdff127fdd7421a71f8b2b474be69386f67819edace92273916e7230c9054f38107db9dc6730b3530ab5.js" integrity="sha512-CLaAB4o8&#43;caePdIXpapSz93UodhQ&#43;M3/En/ddCGnH4srR0vmk4b2eBntrOkic5FucjDJBU84EH253Gcws1MKtQ=="></script>
+
+
+
+
+    </body>
+</html>

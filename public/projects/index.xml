@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Projects on Alberto Failla, PhD</title>
+		<link>http://localhost:1313/projects/</link>
+		<description>Recent content in Projects on Alberto Failla, PhD</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+			<copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+		
+		
+			<lastBuildDate>Fri, 07 Aug 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Alberto</title>
+				<link>http://localhost:1313/projects/pairedpulsetms_analysis/</link>
+				<pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/projects/pairedpulsetms_analysis/</guid>
+				<description>&lt;p&gt;The goal of &lt;a href=&#34;https://github.com/albertooof/PairedPulseTMS_Analysis&#34;&gt;&lt;strong&gt;PairedPulse TMS Analysis&lt;/strong&gt;&lt;/a&gt; package is to provide a set of R functions for analysing and normalising &lt;em&gt;raw paired-pulse TMS data&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;I created and currently use the package to process paired-pulse measurements, organise test stimulus and conditioned stimulus responses, and apply different &lt;strong&gt;normalisation methods&lt;/strong&gt; to the data. The functions can work with both &lt;em&gt;wide&lt;/em&gt; and &lt;em&gt;long&lt;/em&gt; data formats and can be applied to individual datasets or dataframes containing multiple participants. The package also includes functions for plotting the normalised data, allowing me to visualise the responses across different triggers and compare the results between participants.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Alberto</title>
+				<link>http://localhost:1313/projects/pairedpulsetms_visualisation/</link>
+				<pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/projects/pairedpulsetms_visualisation/</guid>
+				<description>&lt;p&gt;The goal of the &lt;a href=&#34;https://github.com/albertooof/PairedPulseTMS_Visualisation&#34;&gt;&lt;strong&gt;PairedPulseTMS Visualisation&lt;/strong&gt;&lt;/a&gt; package is to provide an interactive visualisation tool for inspecting and processing &lt;em&gt;paired-pulse TMS recordings&lt;/em&gt; exported from LabChart.&lt;/p&gt;&#xA;&lt;p&gt;I created and currently use the package to visually inspect individual TMS pulses, scroll through recordings, and &lt;strong&gt;compare responses across different pulses and trials&lt;/strong&gt;. The tool makes it possible to identify and discard trials or pulses that are unsuitable for further analysis, providing a more controlled way of cleaning the raw TMS data before subsequent processing.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Alberto</title>
+				<link>http://localhost:1313/projects/srttanalysis/</link>
+				<pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/projects/srttanalysis/</guid>
+				<description>&lt;p&gt;The goal of &lt;a href=&#34;https://github.com/albertooof/SRTTAnalysis_APP&#34;&gt;&lt;strong&gt;SRTTAnalysis&lt;/strong&gt;&lt;/a&gt; is to provide a set of R functions for analysing &lt;em&gt;raw reaction time data&lt;/em&gt;, particularly data from the &lt;strong&gt;Serial Reaction Time Task (SRTT)&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;I created and currently use the package to process and filter reaction time data, calculate performance measures such as &lt;em&gt;skill&lt;/em&gt; across different task phases, and examine the &lt;strong&gt;percentage of filtered values&lt;/strong&gt;. The functions can work with both &lt;em&gt;wide&lt;/em&gt; and &lt;em&gt;long&lt;/em&gt; data formats and can be applied to individual datasets or dataframes containing multiple participants. The package also includes functions for plotting reaction time data and skill measures, allowing me to examine changes in performance across the different stages of an SRTT.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Alberto</title>
+				<link>http://localhost:1313/projects/srttdistribution/</link>
+				<pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/projects/srttdistribution/</guid>
+				<description>&lt;p&gt;The goal of the &lt;a href=&#34;https://github.com/albertooof/SRTT_Distribution_APP&#34;&gt;&lt;strong&gt;SRTT Distribution APP&lt;/strong&gt;&lt;/a&gt; package is to provide a set of R functions for exploring how different statistical distributions fit &lt;em&gt;reaction time data&lt;/em&gt; collected during a Serial Reaction Time Task (SRTT).&lt;/p&gt;&#xA;&lt;p&gt;I created and currently use the package to investigate how &lt;strong&gt;mean, variance, lag, and other distributional properties&lt;/strong&gt; change across different sample sizes and windows of reaction time data. The package allows me to compare different fitting approaches, including the &lt;strong&gt;normal, gamma, and shifted log-normal distributions&lt;/strong&gt;, and to identify which distribution provides the best fit to the observed reaction time data.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
