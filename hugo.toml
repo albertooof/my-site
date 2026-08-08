@@ -101,13 +101,13 @@ disableHugoGeneratorInject = false
   #
   # This option enables reading time part on post info
   #
-  enableReadingTime = true
+  # enableReadingTime = true
 
   # Global language menu
   #
   # Enables the global language menu.
   #
-  enableGlobalLanguageMenu = true
+  # enableGlobalLanguageMenu = true
 
   # Integrate Javascript files or stylesheets by adding the url to the external assets or by
   # linking local files with their path relative to the static folder, e.g. "css/styles.css"
@@ -248,7 +248,7 @@ disableHugoGeneratorInject = false
     weight    = 1
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
   [languages.en.params]
-    subtitle  = "Hello Friend NG Theme"
+   # subtitle  = "Hello Friend NG Theme"
 
 [menu]
   [[menu.main]]
