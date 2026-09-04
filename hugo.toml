@@ -46,8 +46,13 @@ disableHugoGeneratorInject = false
 [permalinks]
   posts = "/posts/:year/:month/:title/"
 
-[blackfriday]
-  hrefTargetBlank = true
+# [blackfriday]
+#   hrefTargetBlank = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [taxonomies]
   tag      = "tags"
@@ -256,6 +261,7 @@ disableHugoGeneratorInject = false
     name        = "About"
     url         = "/about/"
     hasChildren = true
+    weight      = 1
   
   [[menu.main]]
     identifier  = "me"
@@ -290,6 +296,7 @@ disableHugoGeneratorInject = false
     name       = "Projects"
     url        = "/projects/"
     hasChildren = true
+    weight = 1
 
   [[menu.main]]
     parent = "projects"
@@ -318,3 +325,9 @@ disableHugoGeneratorInject = false
     name       = "PairedPulse TMS Analysis"
     url        = "/projects/PairedPulseTMS_Analysis/"
     weight = 4
+
+  [[menu.main]]
+    identifier = "media"
+    name       = "Social Media"
+    url        = "/media/"
+    weight     = 3
